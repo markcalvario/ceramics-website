@@ -1,0 +1,15 @@
+.ceramicsContent {
+  margin: 0px 70px 35px 320px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+img {
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+  padding: 20px 0;
+}
+/*# sourceMappingURL=App.css.map */

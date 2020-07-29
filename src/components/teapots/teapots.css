@@ -1,0 +1,7 @@
+.teapotImg {
+  height: 100%;
+  width: 90%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=teapots.css.map */

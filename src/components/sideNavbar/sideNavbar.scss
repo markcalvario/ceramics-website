@@ -1,0 +1,25 @@
+.navigation{
+    position: fixed;
+    margin-left: 50px;
+    a{
+        font-weight: 200;
+        text-decoration: none !important;
+        h4{
+            color: black;
+        }
+    }
+    .nav-menu{
+        padding-top: 25px;
+        ul{
+            padding: 0;
+            li{
+                list-style: none;
+                padding: 5px 0;
+                text-decoration: none !important;
+                a{
+                    color: black;
+                }
+            }
+        }
+    }
+}

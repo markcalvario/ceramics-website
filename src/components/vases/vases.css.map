@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,eAAe,CAAA;EACX,MAAM,EAAE,GAAG;EACX,KAAK,EAAE,GAAG;EACV,UAAU,EAAE,KAAK;CACpB",
+    "sources": [
+        "vases.scss"
+    ],
+    "names": [],
+    "file": "vases.css"
+}

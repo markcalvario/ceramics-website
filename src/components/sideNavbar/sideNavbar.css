@@ -1,0 +1,32 @@
+.navigation {
+  position: fixed;
+  margin-left: 50px;
+}
+
+.navigation a {
+  font-weight: 200;
+  text-decoration: none !important;
+}
+
+.navigation a h4 {
+  color: black;
+}
+
+.navigation .nav-menu {
+  padding-top: 25px;
+}
+
+.navigation .nav-menu ul {
+  padding: 0;
+}
+
+.navigation .nav-menu ul li {
+  list-style: none;
+  padding: 5px 0;
+  text-decoration: none !important;
+}
+
+.navigation .nav-menu ul li a {
+  color: black;
+}
+/*# sourceMappingURL=sideNavbar.css.map */
