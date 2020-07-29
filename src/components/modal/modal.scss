@@ -19,9 +19,9 @@
     }
     .modalContent{
       background-color: #fefefe;
-      margin: 0 0 0 5%;
+      margin: 0 5% 0 5%;
       border: 0px solid #888;
-      height: auto;
+      height: 100%;
       color: black;
       img{
         object-fit: cover;
@@ -51,8 +51,12 @@
     position: absolute;
   }
 
-.maxHeight{
-  height: 100%;
-  width: 80%;
+.max-height{
+  height: 400px;
   object-fit: cover;
+}
+.potteryDescription{
+  padding: 10px 0px;
+  text-align: start;
+  text-indent: 20px;
 }

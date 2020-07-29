@@ -11,21 +11,26 @@ import ArmyGreenLiddedJar from "../../img/ceramics/lidded-jars/IMG_8430.jpg";
 import HoneycombLiddedJar from "../../img/ceramics/lidded-jars/IMG_8374.jpg";
 
 
-//
+//modalImages
 import OpenOrangeLJ from "../../img/ceramics/lidded-jars/IMG_8640.jpg"
-// import OpenArmyGreenJar from "../../img/ceramics/lidded-jars/IMG_8437.jpg";
-// import OpenArmyGreenJar from "../../img/ceramics/lidded-jars/IMG_8436.jpg";
+import OpenArmyGreenJar from "../../img/ceramics/lidded-jars/IMG_8436.jpg";
 import ArmyGreenLiddedJar2 from "../../img/ceramics/lidded-jars/IMG_8433.jpg"
+import OpenBeehiveLJ from "../../img/ceramics/lidded-jars/IMG_8487.jpg"
 
 const LiddedJars= props=>{
     const [openModal, setOpenModal]= useState(false);
     const [openModal2, setOpenModal2]= useState(false);
+    const [openModal3, setOpenModal3]= useState(false);
+
 
     const toggleModalState=(event)=>{
         setOpenModal(!openModal)
     }
     const toggleModal2=(event)=>{
         setOpenModal2(!openModal2)
+    }
+    const toggleModal3=(event)=>{
+        setOpenModal3(!openModal3)
     }
 
     return(
@@ -37,15 +42,15 @@ const LiddedJars= props=>{
                 <img src={ArmyGreenLiddedJar} onClick= {(event)=>toggleModal2()} className="lidded-jars" alt="Army Green Lidded Jar"/>
             </div>
             <div className="col-12">
-                <img src={HoneycombLiddedJar} className="lidded-jars" alt="Honeycomb Lidded Jar"/>
+                <img src={HoneycombLiddedJar} onClick= {(event)=>toggleModal3()} className="lidded-jars" alt="Honeycomb Lidded Jar"/>
             </div>
             {openModal &&(
                 <Modal>
                     <ModalChild onClick={(event)=>toggleModalState()} 
                     images={[OrangeLiddedJar, OpenOrangeLJ]}  
                     classes="d-block w-100"
-                    title="Rustic "
-                    description= "fadhslkfadsfhkadslfjasdklfhajkdsl.fhjadsokflas"
+                    title="Rustic Orange Jar "
+                    description= "hello world this is a description hello world this is a description hello world this is a description"
                     >
                     
                     </ModalChild>
@@ -54,9 +59,24 @@ const LiddedJars= props=>{
             {openModal2 &&(
                 <Modal>
                     <ModalChild onClick={(event)=>toggleModal2()} 
-                    images={[OrangeLiddedJar, ArmyGreenLiddedJar2]}  
+                    images={[ArmyGreenLiddedJar,OpenArmyGreenJar, ArmyGreenLiddedJar2]}  
                     classes="d-block w-100"
-                    title="Rustic">
+                    title="Green Lidded Jar with Handles"
+                    description= "hello world this is a description hello world this is a description hello world this is a description"
+                    >
+                    
+                    </ModalChild>
+                </Modal>
+            )}
+            {openModal3 &&(
+                <Modal>
+                    <ModalChild onClick={(event)=>toggleModal3()} 
+                    images={[HoneycombLiddedJar, OpenBeehiveLJ]}  
+                    classes="d-block w-50"
+                    title="The Beehive Jar"
+                    description= "hello world this is a description hello world this is a description hello world this is a description"
+                    >
+                    
                     </ModalChild>
                 </Modal>
             )}

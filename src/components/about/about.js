@@ -2,7 +2,7 @@ import React from "react";
 
 const About= props=>{
     return(
-        <div className="col-8 shiftRight" >
+        <div className="col-xl-8 ceramicsContent" >
             About
         </div>
     )

@@ -13,7 +13,9 @@ const SideNavbar= (props)=>{
                     <li><Link to="/cups">Cups</Link></li>
                     <li><Link to="/liddedjars">Lidded Jars</Link></li>
                     <li><Link to="/teapots">Teapots</Link></li>
-                    <li><Link to="vases">Vases</Link></li>
+                    <li><Link to="/vases">Vases I</Link></li>
+                    <li><Link to="/vases2">Vases II</Link></li>
+                    <li><Link to="/vases3">Vases III</Link></li>
                 </ul>
             </div>
         </div>

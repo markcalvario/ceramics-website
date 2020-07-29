@@ -10,6 +10,8 @@ import Cups from "./components/cups/cups";
 // import Modal from "./components/modal/modal";
 import Teapots from "./components/teapots/teapots";
 import Vases from "./components/vases/vases";
+import Vases2 from "./components/vases2/vases2";
+import Vases3 from "./components/vases3/vases3";
 import LiddedJars from './components/liddedJars/liddedJars';
 
 
@@ -26,7 +28,6 @@ const App = (props) => {
                   <div className="row ">
                     <SideNavbar/>
                     <div className="col-xs-1 col-xl-7 ceramicsContent" >
-                      Home
                     </div>
                   </div>
                 )} />
@@ -68,6 +69,18 @@ const App = (props) => {
                   <div className="row">
                     <SideNavbar/>
                     <Vases/>
+                </div>
+                )} />
+                <Route path="/vases2" render={()=>(
+                  <div className="row">
+                    <SideNavbar/>
+                    <Vases2/>
+                </div>
+                )} />
+                <Route path="/vases3" render={()=>(
+                  <div className="row">
+                    <SideNavbar/>
+                    <Vases3/>
                 </div>
                 )} />
           </Switch>

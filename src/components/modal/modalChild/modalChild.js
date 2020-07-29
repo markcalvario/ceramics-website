@@ -8,9 +8,8 @@ const ModalChild = props =>{
             <div className="modal">
                 
                     <span className="close" onClick={props.onClick}>&times;</span>
-                    <div className="container-fluid centerItems" >
-                        <div className="row">
-                            <div className="modalContent col-xl-8">
+                    <div className="col-xl-7 modalContent centerItems" >
+                     
                                 <Carousel 
                                 prevIcon={<span aria-hidden="false" />}
                                 nextIcon={<span aria-hidden="false"/>}>
@@ -27,14 +26,14 @@ const ModalChild = props =>{
                                         )
                                     })}
                                 </Carousel>
-                            </div>
-                            <div className="col-xl-3">
-                                <h3 className="text-center">{props.title}</h3>
-                                <p>{props.description}</p>
-                            </div>
+                      
+                    </div>
+                    <div className="col-xl-3 centerItems flex-column">
+                        <h3 className="text-center">{props.title}</h3>
+                        <div className="potteryDescription">
+                            <p>{props.description}</p>
                         </div>
                     </div>
-                
                 
             </div>
         </React.Fragment>
