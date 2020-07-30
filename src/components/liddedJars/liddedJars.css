@@ -3,4 +3,16 @@
   -o-object-fit: cover;
      object-fit: cover;
 }
+
+/* X-Small devices (landscape phones, 576px and up)*/
+@media (max-width: 575.98px) {
+  .lidded-jars {
+    width: 93%;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+/* Medium devices (tablets, 768px and up)*/
+/* Large devices (desktops, 992px and up)*/
+/* Extra large devices (large desktops, 1200px and up)*/
 /*# sourceMappingURL=liddedJars.css.map */

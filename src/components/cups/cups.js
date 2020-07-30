@@ -16,6 +16,7 @@ const Cups= props=>{
     }
     return(
         <div className="col-xl-7 ceramicsContent">
+            <h5 className="mobile-title">Cups</h5>
             <div className="ceramicImage">
                 <img src={BlackCup} onClick={()=>toggleModal()}className="cupsImg" alt="Round Light Vase"/>
             </div>

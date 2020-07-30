@@ -3,17 +3,10 @@ body {
   padding: 0;
   height: 100%;
   width: 100%;
-  font-family: 'Open-Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-
 
 .h-75{
   height: 75%;
@@ -24,4 +17,29 @@ code {
 }
 .w-60{
   width:60%;
+}
+/* X-Small devices (landscape phones, 576px and up)*/
+@media (max-width: 575.98px) {
+  .w-60{
+    width:80%;
+  }
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px)  {
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
 }

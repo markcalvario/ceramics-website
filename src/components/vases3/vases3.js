@@ -43,6 +43,7 @@ const Vases3= props=>{
 
     return(
         <div className="col-xl-7 ceramicsContent">
+            <h5 className="mobile-title">Vases III</h5>
             <div className="col-12">
                 <img src={BlueFlowerVase} onClick= {(event)=>toggleModal()} className="roundLightVase" alt="Round Light Vase"/>
             </div>
@@ -74,7 +75,7 @@ const Vases3= props=>{
                 <Modal>
                     <ModalChild onClick={(event)=>toggleModal2()} 
                     images={[BlackChadderedVase]}  
-                    classes="d-block w-50"
+                    classes="d-block w-60"
                     title="Rustic"
                     description= "hello world this is a description hello world this is a description hello world this is a description"
                     />
@@ -85,7 +86,7 @@ const Vases3= props=>{
                 <Modal>
                     <ModalChild onClick={(event)=>toggleModal3()} 
                     images={[CircleOutlineVase]}  
-                    classes="d-block w-50"
+                    classes="d-block w-60"
                     title="The Beehive Jar"
                     description= "hello world this is a description hello world this is a description hello world this is a description"
                     />
@@ -96,7 +97,7 @@ const Vases3= props=>{
                 <Modal>
                     <ModalChild onClick={(event)=>toggleModal4()} 
                     images={[WhiteVase]}  
-                    classes="d-block w-50"
+                    classes="d-block w-60"
                     title="Rustic "
                     description= "hello world this is a description hello world this is a description hello world this is a description"
                     />
@@ -107,7 +108,7 @@ const Vases3= props=>{
                 <Modal>
                     <ModalChild onClick={(event)=>toggleModal5()} 
                     images={[BlueVase]}  
-                    classes="d-block w-50"
+                    classes="d-block w-60"
                     title="Rustic"
                     description= "hello world this is a description hello world this is a description hello world this is a description"
                     />
@@ -118,7 +119,7 @@ const Vases3= props=>{
                 <Modal>
                     <ModalChild onClick={(event)=>toggleModal6()} 
                     images={[]}  
-                    classes="d-block w-50"
+                    classes="d-block w-60"
                     title="The Beehive Jar"
                     description= "hello world this is a description hello world this is a description hello world this is a description"
                     />

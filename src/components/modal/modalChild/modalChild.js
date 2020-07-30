@@ -8,7 +8,10 @@ const ModalChild = props =>{
             <div className="modal">
                 
                     <span className="close" onClick={props.onClick}>&times;</span>
-                    <div className="col-xl-7 modalContent centerItems" >
+                    <div className="mobile-description">
+                        <p>{props.description}</p>
+                    </div>
+                    <div className="col-xs-12 col-xl-7 modalContent centerItems" >
                      
                                 <Carousel 
                                 prevIcon={<span aria-hidden="false" />}
@@ -28,7 +31,7 @@ const ModalChild = props =>{
                                 </Carousel>
                       
                     </div>
-                    <div className="col-xl-3 centerItems flex-column">
+                    <div className="col-xs-12 col-xl-3 centerItems flex-column">
                         <h3 className="text-center">{props.title}</h3>
                         <div className="potteryDescription">
                             <p>{props.description}</p>

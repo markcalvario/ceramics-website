@@ -1,9 +1,7 @@
 .modal {
-  display: block;
-  /* Hidden by default */
   position: fixed;
   /* Stay in place */
-  z-index: 1;
+  z-index: 3;
   /* Sit on top */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -24,6 +22,15 @@
   background-color: white;
 }
 
+.modal .mobile-description {
+  padding: 0;
+  text-align: start;
+  text-indent: 20px;
+  display: none;
+  width: 80%;
+  margin: 0 auto;
+}
+
 .modal .centerItems {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -38,9 +45,9 @@
 
 .modal .modalContent {
   background-color: #fefefe;
-  margin: 0 0 0 5%;
+  margin: 0 5% 0 5%;
   border: 0px solid #888;
-  height: auto;
+  height: 100%;
   color: black;
 }
 
@@ -73,10 +80,91 @@
   position: absolute;
 }
 
-.maxHeight {
-  height: 100%;
-  width: 80%;
+.max-height {
+  height: 400px;
   -o-object-fit: cover;
      object-fit: cover;
 }
+
+.potteryDescription {
+  padding: 10px 0px;
+  text-align: start;
+  text-indent: 20px;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 575.98px) {
+  .modal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .modal .mobile-description {
+    display: block;
+    padding: 0 0 0 0;
+  }
+  .modal .centerItems {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .modal .modalContent {
+    background-color: #fefefe;
+    margin: 0;
+    padding: 0 10px;
+    height: auto;
+  }
+  .modal .modalContent img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    padding: 20px 0;
+  }
+  .modal .close {
+    color: black;
+    float: right;
+    font-size: 2.5rem;
+    font-weight: bold;
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    padding: 20px 20px 0 0;
+    right: 0;
+  }
+  .modal .close:hover,
+  .modal .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .closeButton {
+    position: absolute;
+  }
+  .potteryDescription {
+    padding: 0 0 0 0;
+    text-align: start;
+    font-size: 1.5rem;
+    text-indent: 20px;
+  }
+  .potteryDescription p {
+    display: none;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+/* Medium devices (tablets, 768px and up)*/
+/* Large devices (desktops, 992px and up)*/
+/* Extra large devices (large desktops, 1200px and up)*/
 /*# sourceMappingURL=modal.css.map */

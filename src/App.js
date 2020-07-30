@@ -20,8 +20,8 @@ const App = (props) => {
   
   return (
     <React.Fragment>
-      <div className="container-fluid" style={{padding: "100px 50px", width:"100%"}}>
-      
+      <div className="container-fluid main-layout">
+        
         <BrowserRouter>
           <Switch>
                 <Route exact path="/" render={()=>(

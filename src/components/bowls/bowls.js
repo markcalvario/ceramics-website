@@ -38,6 +38,7 @@ const Bowls= props=>{
 
     return(
         <div className="col-xs-10 col-xl-7 pageScroll ceramicsContent">
+            <h5 className="mobile-title">Bowls</h5>
             <div>
                 <img src={SwirlBowl} onClick={()=> toggleModal()} className="bowlImg" alt="SwirlBowl"/>
             </div>
@@ -55,6 +56,7 @@ const Bowls= props=>{
                     images={[SwirlBowl2,SwirlBowl,SwirlBowl3]}
                     classes="d-block w-100"
                     title="Swirl Bowl"
+                    description="This is the descripton for the swirl bowl piece and it is going to be rendered on top of the image"
                     />
                         
                     
