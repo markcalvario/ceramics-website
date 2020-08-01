@@ -7,7 +7,7 @@
 }
 
 .main-layout {
-  padding: 100px 50px;
+  padding: 100px 50px 0 50px;
   width: 100%;
 }
 
@@ -28,6 +28,10 @@ img {
   letter-spacing: 2px;
 }
 
+.home-description {
+  padding-top: 8%;
+}
+
 /*X-Small devices (landscape phones, 576px and up)*/
 @media (max-width: 575.98px) {
   .ceramicsContent {
@@ -46,6 +50,11 @@ img {
   }
   .mobile-title {
     display: block;
+  }
+  .home-description {
+    padding-top: 8%;
+    text-align: center;
+    font-size: 0.85rem;
   }
 }
 

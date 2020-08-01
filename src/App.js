@@ -1,5 +1,5 @@
 import React from 'react';
-import "./App.css"
+import "./App.scss"
 import {Switch,BrowserRouter, Route} from "react-router-dom";
 
 //components
@@ -27,7 +27,9 @@ const App = (props) => {
                 <Route exact path="/" render={()=>(
                   <div className="row ">
                     <SideNavbar/>
-                    <div className="col-xs-1 col-xl-7 ceramicsContent" >
+                    <div className="col-xs-1 col-xl-7 ceramicsContent">
+                      <h5 className="mobile-title">Home</h5>
+                      <p className="home-description">Click ceramic images for more details!</p> 
                     </div>
                   </div>
                 )} />
