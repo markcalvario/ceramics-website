@@ -5,10 +5,10 @@ nav{
     position: fixed;
     margin-left: 50px;
     a{
-        font-weight: 200;
         text-decoration: none !important;
-        h4{
+        p{
             color: black;
+            font-size: 1.5rem;
         }
     }
     .nav-menu{
@@ -24,6 +24,7 @@ nav{
                 text-decoration: none !important;
                 a{
                     color: black;
+                    padding: 0 5px;
                 }
             }
         }
@@ -66,7 +67,7 @@ nav{
 .background-nav{
     display: none;
 }
-/* Small devices (landscape phones, 576px and up)*/
+/* X-Small devices (landscape phones, 576px and up)*/
 @media (max-width: 575.98px) {
     .navigation{
         position: fixed; /* Stay in place */
@@ -109,7 +110,7 @@ nav{
         height: 100%; /* Full height */
         overflow: auto; /* Enable scroll if needed */
         .side-nav{
-            padding: 50px 20px 0 0;
+            padding: 45px 20px 0 0;
             width: 40%;
             margin:0;
             right:0;
@@ -119,10 +120,11 @@ nav{
             transition: transform .75s ease-in-out;
             li{
                 list-style: none;
-                padding: 10px 10px;
+                padding: 5px 10px;
                 text-decoration: none !important;
                 a{
-                    color: white; 
+                    color: white;
+                    font-size:0.85rem; 
                 }
             }
         }
@@ -134,104 +136,31 @@ nav{
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
     .navigation{
-        position: fixed; /* Stay in place */
-        z-index: 2;
-        margin-left: 0px;
-        padding: 8px;
-        background-color: black;
-        .myName{
-            text-align: center;
-            display: none;
-        }
+        margin: 30px 0 0 30px;
         .nav-menu{
-            padding-top: 0px;
-            .xl-screen{
-                display:none;
-            }
-            ul{
-                margin: 0;
-                transition: display 2s ease-in;
-                li{
-                    a{
-                        color: white;
-                    }
-                }
+            padding: 10px 0;
+        }
+        a{
+            p{
+                font-size: 1.2rem;
+                letter-spacing: 1px;
             }
         }
-        .hamburger-icon{
-            display: block;
-            color: white;
-            z-index: 2;
-        }
-    }
-    .background-nav{
-        display: block; /* Hidden by default */
-        position: fixed; /* Stay in place */
-        margin-top:0px;
-        left: 0;
-        top: 0;
-        width: 100%; /* Full width */
-        height: 100%; /* Full height */
-        overflow: auto; /* Enable scroll if needed */
-        .side-nav{
-            padding: 50px 20px 0 0;
-            width: 25%;
-            margin:0;
-            right:0;
-            overflow: auto;
-            height:100%;
-            float:right;
-            background-color: black;
-            transition: transform .75s ease-in-out;
-            li{
-                list-style: none;
-                padding: 7px 10px;
-                text-decoration: none !important;
-                a{
-                    color: white; 
-                }
-            }
-        }
-    }
-    .alignRight{
-        display: flex;
     }
 }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px)  {
     .navigation{
-        position: fixed;
-        margin-left: 0px;
-        padding: 10px 40px;
-        a{
-            font-weight: 200;
-            text-decoration: none !important;
-            h4{
-                color: black;
-                font-size: 1.2rem;
-            }
-        }
+        margin: 30px 0 0 30px;
         .nav-menu{
-            padding-top: 0px;
-            .xl-screen{
-                display:block;
-            }
-            ul{
-                padding: 0;
-                li{
-                    list-style: none;
-                    padding: 5px 0;
-                    text-decoration: none !important;
-                    a{
-                        color: black;
-                        font-size: 1rem;
-                    }
-                }
-            }
+            padding: 10px 0;
         }
-        .hamburger-icon{
-            display: none;
+        a{
+            p{
+                font-size: 1.2rem;
+                letter-spacing: 1px;
+            }
         }
     }
 }

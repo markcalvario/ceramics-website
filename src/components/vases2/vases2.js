@@ -46,7 +46,7 @@ const Vases2= props=>{
     }
 
     return(
-        <div className="col-xl-7 ceramicsContent">
+        <div className="col-sm-8 col-md-8 col-xl-7 ceramicsContent">
             <h5 className="mobile-title">Vases II</h5>
             <div className="col-12">
                 <img src={TallEarthenwareVase} onClick={(event)=>toggleModal()} className="roundLightVase" alt="Round Light Vase"/>

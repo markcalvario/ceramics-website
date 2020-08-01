@@ -37,7 +37,7 @@ const Bowls= props=>{
     }
 
     return(
-        <div className="col-xs-10 col-xl-7 pageScroll ceramicsContent">
+        <div className="col-xs-10 col-sm-8 col-md-8 col-xl-7 pageScroll ceramicsContent">
             <h5 className="mobile-title">Bowls</h5>
             <div>
                 <img src={SwirlBowl} onClick={()=> toggleModal()} className="bowlImg" alt="SwirlBowl"/>

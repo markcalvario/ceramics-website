@@ -1,5 +1,5 @@
 .ceramicsContent {
-  margin: 0px 70px 35px 320px;
+  margin: 0px 70px 35px 28%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -9,6 +9,10 @@
 .main-layout {
   padding: 100px 50px;
   width: 100%;
+}
+
+.highlight-link {
+  font-weight: 900;
 }
 
 img {
@@ -47,13 +51,16 @@ img {
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
-  .ceramicsContent {
-    margin: 100px 0 0 0;
-    padding: 0;
-  }
   .main-layout {
     padding: 0;
     width: 100%;
+  }
+  .ceramicsContent {
+    margin: 0px 70px 35px 210px;
+    padding: 0;
+  }
+  .ceramicsContent .col-12 {
+    padding: 0;
   }
   .row {
     margin: 0;
@@ -63,11 +70,22 @@ img {
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
   .main-layout {
-    padding: 0 10px;
+    padding: 0;
     width: 100%;
+  }
+  .ceramicsContent {
+    margin: 0px 70px 35px 250px;
+    padding: 0;
+  }
+  .ceramicsContent .col-12 {
+    padding: 0;
+  }
+  .row {
+    margin: 0;
   }
 }
 
+/* Portrait */
 /* Large devices (desktops, 992px and up)*/
 /* Extra large devices (large desktops, 1200px and up)*/
 /*# sourceMappingURL=App.css.map */

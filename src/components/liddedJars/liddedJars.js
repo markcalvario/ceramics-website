@@ -34,7 +34,7 @@ const LiddedJars= props=>{
     }
 
     return(
-        <div className="col-xl-7 ceramicsContent">
+        <div className="col-sm-8 col-md-8 col-xl-7 ceramicsContent">
             <h5 className="mobile-title">Lidded Jars</h5>
             <div className="col-12">
                 <img src={OrangeLiddedJar} onClick= {(event)=>toggleModalState()} className="lidded-jars" alt="Orange Lidded Jar"/>

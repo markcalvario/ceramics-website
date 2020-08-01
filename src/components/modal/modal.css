@@ -164,7 +164,188 @@
 }
 
 /* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .modal .centerItems {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .modal .centerItems .text-center {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  .modal .modalContent {
+    background-color: #fefefe;
+    margin: 0;
+    border: 0px solid #888;
+    height: 100%;
+    color: black;
+  }
+  .modal .modalContent img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    padding: 0;
+  }
+  .modal .close {
+    color: black;
+    float: right;
+    font-size: 2.5rem;
+    font-weight: bold;
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    padding: 15px 25px 0px 0px;
+    right: 0;
+  }
+  .modal .close:hover,
+  .modal .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .closeButton {
+    position: absolute;
+  }
+  .potteryDescription {
+    padding: 10px 0px;
+    text-align: start;
+    text-indent: 20px;
+  }
+  .potteryDescription p {
+    font-size: .75rem;
+  }
+}
+
 /* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .modal .centerItems {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .modal .centerItems .text-center {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  .modal .modalContent {
+    background-color: #fefefe;
+    margin: 0 10px 0 10px;
+    overflow: auto;
+    border: 0px solid #888;
+    height: 100%;
+    color: black;
+  }
+  .modal .modalContent img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    padding: 0;
+  }
+  .modal .close {
+    color: black;
+    float: right;
+    font-size: 2.5rem;
+    font-weight: bold;
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    padding: 15px 25px 0px 0px;
+    right: 0;
+  }
+  .modal .close:hover,
+  .modal .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .closeButton {
+    position: absolute;
+  }
+  .potteryDescription {
+    padding: 10px 0px;
+    text-align: start;
+    text-indent: 20px;
+  }
+  .potteryDescription p {
+    font-size: .75rem;
+  }
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .modal .centerItems {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .modal .centerItems .text-center {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  .modal .modalContent {
+    background-color: #fefefe;
+    margin: 0 20px;
+    overflow: auto;
+    border: 0px solid #888;
+    height: 100%;
+    color: black;
+  }
+  .modal .modalContent img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    padding: 0;
+  }
+  .modal .close {
+    color: black;
+    float: right;
+    font-size: 2.5rem;
+    font-weight: bold;
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    padding: 15px 25px 0px 0px;
+    right: 0;
+  }
+  .modal .close:hover,
+  .modal .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .closeButton {
+    position: absolute;
+  }
+  .potteryDescription {
+    padding: 10px 0px;
+    text-align: start;
+    text-indent: 20px;
+  }
+  .potteryDescription p {
+    font-size: .75rem;
+  }
+}
+
 /* Large devices (desktops, 992px and up)*/
-/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .modal .modalContent {
+    margin: 0;
+  }
+}
 /*# sourceMappingURL=modal.css.map */
