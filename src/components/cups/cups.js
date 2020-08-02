@@ -26,8 +26,8 @@ const Cups= props=>{
                     onClick={()=>toggleModal()}
                     images={[BlackCup]}
                     classes="d-block w-60"
-                    title="Porcelain Black Mug"
-                    description="hello this is mark and i am currently working on this ceramics website where i can display all my ceramics work to the public and everyone in the web"
+                    title="Black Mug"
+                    description=""
                     >
 
                     </ModalChild>

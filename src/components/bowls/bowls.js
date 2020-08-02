@@ -56,7 +56,7 @@ const Bowls= props=>{
                     images={[SwirlBowl2,SwirlBowl,SwirlBowl3]}
                     classes="d-block w-100"
                     title="Swirl Bowl"
-                    description="This is the descripton for the swirl bowl piece and it is going to be rendered on top of the image"
+                    description=""
                     />
                         
                     

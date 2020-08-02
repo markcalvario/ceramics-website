@@ -65,8 +65,8 @@ const Vases3= props=>{
                     <ModalChild onClick={(event)=>toggleModal()} 
                     images={[BlueFlowerVase]}  
                     classes="d-block w-100"
-                    title="Rustic "
-                    description= "hello world this is a description hello world this is a description hello world this is a description"
+                    title="Small Blue Vase"
+                    description= ""
                     />
                 
                 </Modal>
@@ -76,8 +76,8 @@ const Vases3= props=>{
                     <ModalChild onClick={(event)=>toggleModal2()} 
                     images={[BlackChadderedVase]}  
                     classes="d-block w-60"
-                    title="Rustic"
-                    description= "hello world this is a description hello world this is a description hello world this is a description"
+                    title="Black Chattered Vase"
+                    description= ""
                     />
                         
                 </Modal>
@@ -87,8 +87,8 @@ const Vases3= props=>{
                     <ModalChild onClick={(event)=>toggleModal3()} 
                     images={[CircleOutlineVase]}  
                     classes="d-block w-60"
-                    title="The Beehive Jar"
-                    description= "hello world this is a description hello world this is a description hello world this is a description"
+                    title="Beige Vase"
+                    description= ""
                     />
                     
                 </Modal>
@@ -98,8 +98,8 @@ const Vases3= props=>{
                     <ModalChild onClick={(event)=>toggleModal4()} 
                     images={[WhiteVase]}  
                     classes="d-block w-60"
-                    title="Rustic "
-                    description= "hello world this is a description hello world this is a description hello world this is a description"
+                    title="White Vase"
+                    description= ""
                     />
                 
                 </Modal>
@@ -109,8 +109,8 @@ const Vases3= props=>{
                     <ModalChild onClick={(event)=>toggleModal5()} 
                     images={[BlueVase]}  
                     classes="d-block w-60"
-                    title="Rustic"
-                    description= "hello world this is a description hello world this is a description hello world this is a description"
+                    title="Blue Vase"
+                    description= ""
                     />
                         
                 </Modal>
@@ -121,7 +121,7 @@ const Vases3= props=>{
                     images={[]}  
                     classes="d-block w-60"
                     title="The Beehive Jar"
-                    description= "hello world this is a description hello world this is a description hello world this is a description"
+                    description= ""
                     />
                     
                 </Modal>

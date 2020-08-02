@@ -51,7 +51,7 @@ const LiddedJars= props=>{
                     images={[OrangeLiddedJar, OpenOrangeLJ]}  
                     classes="d-block w-100"
                     title="Rustic Orange Jar "
-                    description= "hello world this is a description hello world this is a description hello world this is a description"
+                    description= ""
                     >
                     
                     </ModalChild>
@@ -62,8 +62,8 @@ const LiddedJars= props=>{
                     <ModalChild onClick={(event)=>toggleModal2()} 
                     images={[ArmyGreenLiddedJar,OpenArmyGreenJar, ArmyGreenLiddedJar2]}  
                     classes="d-block w-100"
-                    title="Green Lidded Jar with Handles"
-                    description= "hello world this is a description hello world this is a description hello world this is a description"
+                    title="Green Lidded Jar"
+                    description= ""
                     >
                     
                     </ModalChild>
@@ -75,7 +75,7 @@ const LiddedJars= props=>{
                     images={[HoneycombLiddedJar, OpenBeehiveLJ]}  
                     classes="d-block w-50"
                     title="The Beehive Jar"
-                    description= "hello world this is a description hello world this is a description hello world this is a description"
+                    description= ""
                     >
                     
                     </ModalChild>
