@@ -10,7 +10,7 @@ const About= props=>{
             <h5 className="mobile-title">About</h5>
             <img className="img-of-me" src={PictureOfMe} alt="pic of me"/>
             <div className="about-info"> 
-                <p className="description-of-me">First generation Mexican-American artist from Southern California.<br/>
+                <p className="description-of-me">First generation Mexican-American ceramic artist from Southern California.<br/>
                     Currently a rising sophomore at Columbia University studying computer science.
                     <br/><br/>
                 </p>
