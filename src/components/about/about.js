@@ -2,7 +2,7 @@ import React from "react";
 import "./about.scss";
 
 //img
-import PictureOfMe from "../../img/IMG_8089.jpeg";
+import PictureOfMe from "../../img/IMG_5287.jpg";
 
 const About= props=>{
     return(
@@ -11,7 +11,7 @@ const About= props=>{
             <img className="img-of-me" src={PictureOfMe} alt="pic of me"/>
             <div className="about-info"> 
                 <p className="description-of-me">First generation Mexican-American ceramic artist from Southern California.<br/>
-                    Currently a senior at Columbia University studying computer science.
+                    Graduated from Columbia University with a B.S. in computer science.
                     <br/><br/>
                 </p>
                 <div className="contact-info">
@@ -19,7 +19,6 @@ const About= props=>{
                     <a href="mailto:ceramicsbymac@gmail.com">Ceramicsbymac[at]gmail.com</a>
                     <a href="https://www.etsy.com/people/markcalvario?ref=hdr_user_menu-profile">Etsy</a>
                     <a href="https://instagram.com/markcalvario">Instagram</a>
-                    <a href="https://markcalvario.herokuapp.com">Personal Site</a>
                 </div>
             </div>
         </div>
