@@ -2,7 +2,7 @@ import React from "react";
 import "./about.scss";
 
 //img
-import PictureOfMe from "../../img/IMG_8089.jpg";
+import PictureOfMe from "../../img/IMG_8089.jpeg";
 
 const About= props=>{
     return(
@@ -11,7 +11,7 @@ const About= props=>{
             <img className="img-of-me" src={PictureOfMe} alt="pic of me"/>
             <div className="about-info"> 
                 <p className="description-of-me">First generation Mexican-American ceramic artist from Southern California.<br/>
-                    Currently a rising sophomore at Columbia University studying computer science.
+                    Currently a senior at Columbia University studying computer science.
                     <br/><br/>
                 </p>
                 <div className="contact-info">
